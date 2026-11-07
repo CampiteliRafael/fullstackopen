@@ -1,0 +1,1 @@
+Hi everyone! This repository stores my solutions for the Full Stack Open course by the University of Helsinki. Here, you will find folders containing all the solved exercises from the course.
