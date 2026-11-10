@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}
