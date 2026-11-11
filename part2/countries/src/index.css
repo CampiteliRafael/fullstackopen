@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  color: #202124;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.search-field {
+  margin: 1rem 0 1.5rem;
+}
+
+input {
+  padding: 0.4rem;
+}
+
+.country-results {
+  padding-left: 1.25rem;
+}
+
+.country-results li {
+  margin: 0.5rem 0;
+}
+
+button {
+  margin-left: 0.6rem;
+  padding: 0.3rem 0.65rem;
+  cursor: pointer;
+}
+
+.country {
+  margin-top: 1.5rem;
+}
+
+.flag {
+  display: block;
+  width: min(100%, 22rem);
+  max-height: 14rem;
+  object-fit: contain;
+  object-position: left;
+}
+
+.weather {
+  margin-top: 1.5rem;
+}
+
+.weather-details img {
+  vertical-align: middle;
+}
+
+.error {
+  color: #9c2525;
+}
