@@ -1,0 +1,34 @@
+{
+  "name": "fullstackopen-part3-phonebook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full Stack Open part 3 phonebook",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js",
+    "dev:ui": "vite --config vite.config.mjs",
+    "build:ui": "vite build --config vite.config.mjs",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "morgan": "^1.10.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@stylistic/eslint-plugin": "^5.2.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.30.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "nodemon": "^3.1.10",
+    "vite": "^8.3.6"
+  }
+}

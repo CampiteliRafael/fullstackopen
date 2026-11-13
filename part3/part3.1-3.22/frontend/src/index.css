@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  color: #202124;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  margin-top: 1.75rem;
+}
+
+form div,
+.filter-field {
+  margin: 0.75rem 0;
+}
+
+input {
+  padding: 0.35rem;
+}
+
+button {
+  margin-left: 0.5rem;
+  padding: 0.35rem 0.65rem;
+  cursor: pointer;
+}
+
+.person-list {
+  padding-left: 1.25rem;
+}
+
+.person-list li {
+  margin: 0.5rem 0;
+}
+
+.notification {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.notification.success {
+  color: #176b36;
+  background: #e9f6ed;
+  border-color: #80c995;
+}
+
+.notification.error {
+  color: #9c2525;
+  background: #fff0f0;
+  border-color: #e4a0a0;
+}
